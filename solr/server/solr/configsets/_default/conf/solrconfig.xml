@@ -848,6 +848,7 @@
   <searchComponent class="solr.HighlightComponent" name="highlight">
     <!-- note: the hl.method=unified highlighter is not configured here; it's completely configured
     via parameters.  The below configuration supports hl.method=original and fastVector. -->
+    <highlighting class="solr.highlight.MyUnifiedHighlighter"/>
     <highlighting>
       <!-- Configure the standard fragmenter -->
       <!-- This could most likely be commented out in the "default" case -->
